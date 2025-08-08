@@ -1,42 +1,4 @@
-</head>
-<body>
-    <h1>Álbum de Fotos em Corações</h1>
-    <div class="album">
-        <!-- Coração 1 -->
-        <div class="heart">
-            <img src="foto1.jpg" alt="Foto 1" class="photo">
-            <div class="caption">Pai e Eu</div>
-        </div>
-        
-        <!-- Coração 2 -->
-        <div class="heart">
-            <img src="foto2.jpg" alt="Foto 2" class="photo">
-            <div class="caption">Família</div>
-        </div>
-        
-        <!-- Coração 3 -->
-        <div class="heart">
-            <img src="foto3.jpg" alt="Foto 3" class="photo">
-            <div class="caption">Aniversário</div>
-        </div>
-        
-        <!-- Coração 4 -->
-        <div class="heart">
-            <img src="foto4.jpg" alt="Foto 4" class="photo">
-            <div class="caption">Viagem</div>
-        </div>
-        
-        <!-- Coração 5 -->
-        <div class="heart">
-            <img src="foto5.jpg" alt="Foto 5" class="photo">
-            <div class="caption">Risadas</div>
-        </div>
-        
-        <!-- Coração 6 -->
-        <div class="heart">
-            <img src="foto6.jpg" alt="Foto 6" class="photo">
-            <div class="caption">Amor</div>
-        </div>
-    </div>
-</body>
-</html>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+:root{
+  --font: 'Poppins', sans-serif;
+  --title-font-size: 2.25rem;
