@@ -56,6 +56,22 @@
             <div class="signature">Com todo meu carinho,<br> da nick</div>
             <p>privilégio seu ser meu pai tbm né!
         </div>
+        <button id="playButton" style="padding: 10px 20px; background: #ff6b81; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    Clique para tocar a música
+</button>
+
+<audio id="myAudio" controls style="display: none;">
+    <source src="Arctic Monkeys - Do I Wanna Know_ (Official Video).mp3" type="audio/mp3">
+</audio>
+
+<script>
+    document.getElementById('playButton').addEventListener('click', function() {
+        const audio = document.getElementById('myAudio');
+        audio.play();
+        this.style.display = 'none'; // Esconde o botão após clicar
+        audio.style.display = 'block'; // Mostra os controles
+    });
+</script>
     </div>
 </body>
 </html>
